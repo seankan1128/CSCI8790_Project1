@@ -16,10 +16,10 @@ class BloomFilter(object):
   
     def __init__(self, bitarray_size, hash_count):
         '''
-        items_count : int
-            Number of items expected to be stored in bloom filter
-        fp_prob : float
-            False Positive probability in decimal
+        bitarray_size : int
+            Size of the bit array in bloom filter
+        hash_count : int
+            number of hash function to be used
         '''
         # # False possible probability in decimal
         # self.fp_prob = fp_prob
