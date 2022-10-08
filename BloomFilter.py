@@ -28,9 +28,6 @@ class BloomFilter(object):
         # Store the bit array size
         self.size = bitarray_size
 
-
-
-  
     def insert_str(self, item):
         '''
         Add a string in the filter
